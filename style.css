@@ -219,6 +219,10 @@ span {
 
 /* -----------CONTACT SECTION STYLING ------- */
 
+.contact {
+    background: var(--secondary-bg-color);
+}
+
 .contact h2 {
     text-align: center;
     margin-bottom: 3rem;
@@ -234,21 +238,21 @@ span {
 .contact form .input-box {
     display: flex;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
 }
 
 .contact form .input-box input,
 .contact form textarea {
-    
+    width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--secondary-bg-color);
+    background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
 }
 
-.contactform .input-box input {
+.contact form .input-box input {
     width:49%;
 }
 
