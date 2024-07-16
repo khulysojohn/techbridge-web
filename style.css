@@ -143,6 +143,19 @@ span {
 
 .home-img img {
     border-radius: 50%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 /*  ------ABOUT SECTION STYLING------- */
@@ -261,6 +274,7 @@ span {
 
 .contact form textarea {
     width: 100%;
+    resize: none;
 }
 
 
@@ -360,5 +374,37 @@ span {
     .about img {
         width: 70vw;
         margin-top: 4rem;
+    }
+}
+
+@media (max-width:600px) {
+    .services-container {
+        display: block;
+        margin-bottom: 2rem;
+    
+    }
+    .services-container .services-box {
+        margin-bottom: 1rem;
+    } 
+
+   
+ 
+}
+@media (max-width: 500px){
+    html {
+        font-size: 50%;
+    }
+    .contact form .input-box input {
+        width:100%;
+   }
+}
+
+@media (max-width:465px){
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer-text p {
+        text-align: center;
+        margin-top: 1.5rem;
     }
 }
