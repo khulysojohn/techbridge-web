@@ -18,7 +18,7 @@
     --main-color: #0ef;
 }
 
-html {
+html body{
     font-size: 62,5%;
     overflow-x: hidden;
     width: 100%;
