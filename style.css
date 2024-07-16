@@ -1,6 +1,6 @@
 /*---------BOX SIZING -------- */
 
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,6 +9,8 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: "poppins" , sans-serif;
+    overflow-x: hidden
+  
 }
 
 :root {
@@ -18,11 +20,12 @@
     --main-color: #0ef;
 }
 
-html body{
+html{
     font-size: 62,5%;
     overflow-x: hidden;
     width: 100vw;
 }
+
 
 body {
     background: var(--bg-color);
@@ -334,7 +337,8 @@ span {
 @media(max-width:770px){
 
     html {
-        width: 100%;
+        width: 100vw;
+        
     }
     
     #menu-icon {
