@@ -7,10 +7,7 @@ This repository contains the source code for a personal web page showcasing Khul
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
-- [HTML Structure](#html-structure)
-- [Sections](#sections)
-- [Contact](#contact)
-- [License](#license)
+  
 
 ## Overview
 The webpage is designed to provide a comprehensive overview of Khulyso John's multifaceted services, including:
