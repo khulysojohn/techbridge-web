@@ -43,7 +43,7 @@ window.onscroll = () => {
 
 
     const typed = new Typed('.multiple-text', {
-        strings: ['Developer', 'Tutor', 'Electrician'],
+        strings: ['Developers', 'Tutors', 'Electricians'],
         typeSpeed: 100,
         backSpeed: 100,
         backDelay: 1000,
