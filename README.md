@@ -1,4 +1,4 @@
-# Khulyso Dev Web Page
+# Techbridge-web
 
 This repository contains the source code for a personal web page showcasing Khulyso John's services in web development, educational support, and electrical services. The web page is built with HTML, CSS, and JavaScript.
 
